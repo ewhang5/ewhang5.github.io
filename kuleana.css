@@ -1,0 +1,296 @@
+.table {
+    width: 90%;
+    align-self: center;
+    border-collapse: collapse;
+    color: #666;
+}
+tr {
+    flex-direction: row;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+th, td {
+    width: 45%;
+    border: 1px solid #ddd;
+    padding: 2vw;
+}
+th {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-color:#1FAB89;
+    color: white;
+}
+.subtasks {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    align-items: flex-start;
+}
+.task {
+    display: list-item;
+    color:  #666;
+    padding-bottom: 5vw;
+}
+.sketches {
+    align-items: center;
+    justify-content: center;
+}
+.sketch1 {
+    width: 80vw;
+    height: 60vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 20vw;
+}
+.sketch2 {
+    width: 80vw;
+    height: 60vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 20vw;
+}
+.sketch3 {
+    width: 80vw;
+    height: 90vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 20vw;
+}
+.sketch4 {
+    width: 80vw;
+    height: 50vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 20vw;
+}
+.wf1 {
+    width: 80vw;
+    height: 70vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 20vw;
+}
+.wf2 {
+    width: 80vw;
+    height: 55vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 20vw;
+}
+.wf3 {
+    width: 80vw;
+    height: 90vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 20vw;
+}
+.wf4 {
+    width: 80vw;
+    height: 50vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 20vw;
+}
+.gifs {
+    width: 80vw;
+    height: 45vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 20vw;
+}
+.gifContainer {
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfd;
+    margin-bottom: 20vw;
+    padding-bottom: 10vw;
+    padding-top: 15vw;
+    align-self: center;
+}
+@media only screen and (min-width: 450px) {
+    * {
+        line-height: 4vw;
+    }
+    .table {
+        width: 65%;
+        align-self: center;
+        border-collapse: collapse;
+        color: #666;
+    }
+    th {
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        background-color:#1FAB89;
+        color: white;
+    }
+    .subtasks {
+        padding-left: 20vw;
+        padding-right: 20vw;
+        align-items: flex-start;
+    }
+    .task {
+        display: list-item;
+        color:  #666;
+        padding-bottom: 3vw;
+    }
+    .sketches {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .sketch1 {
+        width: 35vw;
+        height: 25vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 0;
+    }
+    .sketch2 {
+        width: 35vw;
+        height: 27vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 0;
+    }
+    .sketch3 {
+        width: 35vw;
+        height: 40vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 0;
+    }
+    .sketch4 {
+        width: 35vw;
+        height: 22vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 0;
+    }
+    .wf1 {
+        width: 35vw;
+        height: 28vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 3vw;
+    }
+    .wf2 {
+        width: 35vw;
+        height: 23vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 3vw;
+    }
+    .wf3 {
+        width: 35vw;
+        height: 40vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 3vw;
+    }
+    .wf4 {
+        width: 35vw;
+        height: 22vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 3vw;
+    }
+    .gifs {
+        width: 50vw;
+        height: 30vw;
+        padding-bottom: 5vw;
+    }
+    .gifContainer {
+        justify-content: center;
+        align-items: center;
+        background-color: #fbfbfd;
+        margin-bottom: 0vw;
+        padding-bottom: 0vw;
+        padding-top: 3vw;
+        align-self: center;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    * {
+        line-height: 2vw;
+    }
+    .sketch1 {
+        width: 30vw;
+        height: 22vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 0;
+    }
+    .sketch2 {
+        width: 30vw;
+        height: 23vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 0;
+    }
+    .sketch3 {
+        width: 30vw;
+        height: 34vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 0;
+    }
+    .sketch4 {
+        width: 30vw;
+        height: 18vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 0;
+    }
+    .wf1 {
+        width: 30vw;
+        height: 25vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 3vw;
+    }
+    .wf2 {
+        width: 30vw;
+        height: 20vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 3vw;
+    }
+    .wf3 {
+        width: 30vw;
+        height: 33vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 3vw;
+    }
+    .wf4 {
+        width: 30vw;
+        height: 18vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-bottom: 3vw;
+    }
+    .gifs {
+        width: 30vw;
+        height: 18vw;
+        padding-bottom: 5vw;
+    }
+    .gifContainer {
+        justify-content: center;
+        align-items: center;
+        background-color: #fbfbfd;
+        margin-bottom: 0vw;
+        padding-bottom: 0vw;
+        padding-top: 3vw;
+        align-self: center;
+    }
+}

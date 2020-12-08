@@ -1,1 +1,567 @@
-/* Put your style information here! */
+* {
+    display: flex;
+    flex-direction: column;
+    line-height: 8vw;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    align-items: flex-start;
+}
+.header {
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+title {
+    display: none;
+    flex-direction: row;
+}
+.titleContainer {
+    align-items: center;
+    padding-bottom: 3vw;
+    padding-top: 1vw;
+    margin-bottom: 20vw;
+}
+.navList {
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3vw;
+    padding-left: 1vw;
+    width: 100%;
+}
+.rightLinks {
+    flex-direction: row;
+    align-self: flex-end;
+    align-items: flex-end;
+}
+.links {
+    font-size: 4vw;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-right: 4vw;
+    text-align: center;
+    padding-top: 2vw;
+}
+.nav {
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.nav:hover {
+    transform: skewX(3deg) translateX(5px);
+    color: #FF2C75;
+}
+.name:hover {
+    text-decoration: none;
+}
+b {
+    color: black;
+}
+.pageLink {
+    align-items: center;
+}
+.pageLink:hover {
+    text-decoration: none;
+}
+.titleText {
+    font-size: 7vw;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+}
+.title {
+    z-index: 10;
+    color: black;
+    font-size: 12vw;
+    padding-bottom: 3vw;
+    padding-top: 15vw;
+    align-items: flex-start;
+    text-align: left;
+}
+.subtitle {
+    z-index: 10;
+    color: black;
+    font-size: 7vw;
+    padding-bottom: 3vw;
+    padding-top: 5vw;
+    align-items: flex-start;
+    text-align: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+.ty {
+    z-index: 10;
+    color: black;
+    font-size: 7vw;
+    padding-bottom: 3vw;
+    padding-top: 5vw;
+    align-items: flex-start;
+    text-align: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+.itemContainer {
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfd;
+    margin-bottom: 15vw;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+}
+p {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color: #666;
+}
+.itemTitle {
+    font-size: 8vw;
+    font-weight: 700;
+    padding-bottom: 3vw;
+}
+.itemDescription {
+    padding-bottom: 5vw;
+    font-size: 5vw;
+}
+.item {
+    height: 45vw;
+    width: 85vw;
+    border-radius: 10px;
+}
+.contact {
+    padding-bottom: 3vw;
+    padding-top: 5vw;
+    align-items: flex-start;
+    text-align: left;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    align-self: center;
+}
+.card {
+    position: relative;
+    height: 30vw;
+    width: 80vw;
+    background-color: white;
+    overflow: hidden;
+    align-self: center;
+    flex-direction: row;
+}
+.cardP {
+    z-index: 99;
+    color: #333;
+    opacity: 0.7;
+    font-size: 2vw;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    justify-content: flex-end;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 15vw;
+    line-height: 2vw;
+}
+.cardTitle {
+    z-index: 99;
+    color: black;
+    font-size: 4vw;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    justify-content: flex-end;
+    padding-left: 5vw;
+    padding-right: 0;
+    padding-top: 2vw;
+    width: 15vw;
+    line-height: 4vw;
+    margin-bottom: 2vw;
+}
+.cc {
+    z-index: 100;
+    height: 30vw;
+    width: 60vw;
+    background-image: url('./images/Co-Crit\ Ad.jpg');
+    background-size: 100% 100%;
+}
+.dangy {
+    z-index: 100;
+    height: 30vw;
+    width: 60vw;
+    background-image: url('./images/Development\ Screenshot.png');
+    background-size: 100% 100%;
+}
+.kuleana {
+    z-index: 100;
+    height: 30vw;
+    width: 60vw;
+    background-image: url('./images/kuleana_home.png');
+    background-size: 100% 100%;
+}
+.romes {
+    z-index: 100;
+    height: 30vw;
+    width: 60vw;
+    background-image: url('./images/RedesignScreenshot.png');
+    background-size: 100% 100%;
+}
+.ccButton {
+    display: none;
+}
+.dangyButton {
+    display: none;
+}
+.kuleanaButton {
+    display: none;
+}
+.romesButton {
+    display: none;
+}
+.vid {
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    * {
+        line-height: 4vw;
+    }
+    body {
+        font-size: 2vw;
+    }
+    .links {
+        font-size: 2vw;
+    }
+    .header {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .titleContainer {
+        align-items: center;
+        padding-top: 1vw;
+        padding-bottom: 30vw;
+        margin-bottom: 0;
+    }
+    .titleText {
+        font-size: 3vw;
+    }
+    .title {
+        font-size: 2vw;
+        font-weight: bold;
+        padding-bottom: 1vw;
+        padding-top: 3vw;
+        color: white;
+    }
+    .subtitle {
+        font-size: 2vw;
+        padding-top: 3vw;
+        padding-right: 0;
+        padding-left: 0;
+        align-items: center;
+        color: white;
+        padding-bottom: 10vw;
+    }
+    p {
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    .itemTitle {
+        font-size: 5vw;
+        font-weight: 700;
+        padding-bottom: 0;
+    }
+    .itemDescription {
+        padding-bottom: 3vw;
+        font-size: 3vw;
+    }
+    .item {
+        height: 45vw;
+        width: 85vw;
+        border-radius: 10px;
+    }
+    .vid {
+        position: absolute;
+        object-fit: contain;
+        right: 0;
+        top: 0vw;
+        width: 100%;
+        height: 50%;
+        display: inherit;
+        margin-top: 0vw;
+    }
+    .ty {
+        color: black;
+        font-size: 3vw;
+        padding-bottom: 1vw;
+        padding-top: 3vw;
+        align-self: center;
+    }
+
+@media only screen and (min-width: 1025px) {
+    * {
+        line-height: 2vw;
+        font-size: 1.2vw;
+    }
+    body {
+        font-size: 1.2vw;
+    }
+    .links {
+        font-size: 1.25vw;
+        padding-top: 0vw;
+    }
+    .header {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .titleText {
+        font-size: 2vw;
+        width: 30vw;
+    }
+    .title {
+        font-size: 2vw;
+        font-weight: bold;
+        padding-bottom: 1vw;
+        padding-top: 10vw;
+    }
+    .titleContainer {
+        margin-bottom: 5vw;
+        height: 38vw;
+        padding-top: 0vw;
+        padding-bottom: 5vw;
+    }
+    .subtitle {
+        font-size: 1.5vw;
+        padding-bottom: 1vw;
+        padding-top: 3vw;
+    }
+    .ty {
+        color: black;
+        font-size: 1.5vw;
+        padding-bottom: 1vw;
+        padding-top: 3vw;
+        align-self: center;
+    }
+    p {
+        padding-left: 20vw;
+        padding-right: 20vw;
+        line-height: 2vw;
+    }
+    .itemContainer {
+        margin-bottom: 5vw;
+        padding-bottom: 5vw;
+        padding-top: 5vw;
+    }
+    .itemTitle {
+        font-size: 2vw;
+        font-weight: 700;
+        padding-bottom: 0;
+    }
+    .itemDescription {
+        padding-bottom: 2vw;
+        font-size: 1.5vw;
+    }
+    .item {
+        height: 30vw;
+        width: 60vw;
+        border-radius: 1vw;
+    }
+    .contact {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        color: #666;
+        padding-bottom: 5vw;
+        align-self: center;
+        padding-top: 0;
+    }
+    .card {
+        position: relative;
+        height: 24vw;
+        width: 70vw;
+        background-color: white;
+        overflow: hidden;
+        align-self: center;
+        flex-direction: row;
+    }
+    .cardP {
+        z-index: 99;
+        color: #333;
+        opacity: 0.7;
+        font-size: 1.5vw;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        justify-content: flex-end;
+        padding-left: 5vw;
+        padding-right: 0vw;
+        width: 15vw;
+    }
+    .cardTitle {
+        z-index: 99;
+        color: #333;
+        opacity: 0.7;
+        font-size: 3vw;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        justify-content: flex-end;
+        padding-left: 5vw;
+        padding-right: 0vw;
+        padding-top: 2vw;
+        width: 15vw;
+        line-height: 4vw;
+        margin-bottom: 2vw;
+    }
+    .cc {
+        z-index: 100;
+        height: 24vw;
+        width: 48vw;
+        background-image: url('./images/Co-Crit\ Ad.jpg');
+        background-size: 100% 100%;
+        filter: grayscale(100%);
+    }
+    .dangy {
+        z-index: 100;
+        height: 24vw;
+        width: 48vw;
+        background-image: url('./images/Development\ Screenshot.png');
+        background-size: 100% 100%;
+        filter: grayscale(100%);
+    }
+    .kuleana {
+        z-index: 100;
+        height: 24vw;
+        width: 48vw;
+        background-image: url('./images/kuleana_home.png');
+        background-size: 100% 100%;
+        filter: grayscale(100%);
+    }
+    .romes {
+        z-index: 100;
+        height: 24vw;
+        width: 48vw;
+        background-image: url('./images/RedesignScreenshot.png');
+        background-size: 100% 100%;
+        filter: grayscale(100%);
+    }
+    .ccButton {
+        position: absolute;
+        right: 14px;
+        bottom: 14px;
+        width: 30px;
+        height: 30px;
+        background-color: rgb(255, 87, 87);
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        outline:none;
+        transition: all 0.3s ease;
+        z-index: 1;
+        display: inherit;
+    }
+    .dangyButton {
+        position: absolute;
+        right: 14px;
+        bottom: 14px;
+        width: 30px;
+        height: 30px;
+        background-color: #d2d1f5;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        outline:none;
+        transition: all 0.3s ease;
+        z-index: 1;
+        display: inherit;
+    }
+    .kuleanaButton {
+        position: absolute;
+        right: 14px;
+        bottom: 14px;
+        width: 30px;
+        height: 30px;
+        background-color:#1FAB89;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        outline:none;
+        transition: all 0.3s ease;
+        z-index: 1;
+        display: inherit;
+    }
+    .romesButton {
+        position: absolute;
+        right: 14px;
+        bottom: 14px;
+        width: 30px;
+        height: 30px;
+        background-color:#5D722F;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        outline:none;
+        transition: all 0.3s ease;
+        z-index: 1;
+        display: inherit;
+    }
+    .card:hover .cardTitle {
+        color: white;
+        opacity: 1;
+    }
+    .card:hover .cardP {
+        color: white;
+        opacity: 1;
+    }
+    .card:hover .cc {
+        transition-delay: 0.12s;
+        filter: grayscale(0);
+    }
+    .card:hover .dangy {
+        transition-delay: 0.12s;
+        filter: grayscale(0);
+    }
+    .card:hover .kuleana {
+        transition-delay: 0.12s;
+        filter: grayscale(0);
+    }
+    .card:hover .romes {
+        transition-delay: 0.12s;
+        filter: grayscale(0);
+    }
+    .card:hover .ccButton {
+        transform: scale(35);
+    }
+    .card:hover .dangyButton {
+        transform: scale(35);
+    }
+    .card:hover .kuleanaButton {
+        transform: scale(35);
+    }
+    .card:hover .romesButton {
+        transform: scale(35);
+    }
+    .vid {
+        position: absolute;
+        object-fit: contain;
+        right: 0;
+        bottom: 0;
+        padding-bottom: 1vw;
+        width: 100%;
+        height: 93%;
+        display: inherit;
+        margin-top: 5vw;
+    }
+    .rightLinks {
+        padding-top: 1vw;
+    }
+}
+}
