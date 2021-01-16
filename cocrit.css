@@ -1,0 +1,255 @@
+.ccImg {
+    width: 100vw;
+    height: 125vw;
+}
+.ccContainer1 {
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #fbfbfd;
+    margin-bottom: 10vw;
+    padding-bottom: 10vw;
+    padding-top: 15vw;
+}
+.ccContainer2 {
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #fbfbfd;
+    margin-bottom: 10vw;
+    padding-bottom: 10vw;
+    padding-top: 15vw;
+}
+.ccContainer3 {
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #fbfbfd;
+    margin-bottom: 10vw;
+    padding-bottom: 10vw;
+    padding-top: 15vw;
+}
+.ccContainer4 {
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #fbfbfd;
+    margin-bottom: 10vw;
+    padding-bottom: 10vw;
+    padding-top: 15vw;
+}
+.ccText {
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 8vw;
+    text-align: center;
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+    line-height: 12vw;
+}
+.icons {
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+.ccVer {
+    width: 90vw;
+    height: 45vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vw;
+}
+.storeIcon {
+    width: 30vw;
+    height: 10vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 3vw;
+}
+.ccInsight {
+    display: list-item;
+    padding-bottom: 2vw;
+    color: #666;
+    line-height: 7vw;
+}
+
+@media only screen and (min-width: 450px) {
+    .ccImg {
+        width: 30vw;
+        height: 42vw;
+    }
+    .colorHolder1 {
+        width: 20vw;
+        height: 42vw;
+        background-color: rgb(0, 32, 96);
+    }
+    .colorHolder2 {
+        width: 20vw;
+        height: 42vw;
+        background-color: rgb(153, 66, 160);
+    }
+    .colorHolder3 {
+        width: 20vw;
+        height: 42vw;
+        background-color: rgb(153, 66, 160);
+    }
+    .colorHolder4 {
+        width: 20vw;
+        height: 42vw;
+        background-color: rgb(156, 48, 61);
+    }
+    .ccContainer1 {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #fbfbfd;
+        margin-bottom: 3vw;
+        padding-bottom: 0;
+        padding-top: 0;
+        background-color: rgb(0, 77, 134);
+    }
+    .ccContainer2 {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        background-color: #fbfbfd;
+        margin-bottom: 3vw;
+        padding-bottom: 0;
+        padding-top: 0;
+        background-color:  rgb(0, 77, 134);
+    }
+    .ccContainer3 {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #fbfbfd;
+        margin-bottom: 3vw;
+        padding-bottom: 0;
+        padding-top: 0;
+        background-color:rgb(255, 87, 87);
+    }
+    .ccContainer4 {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        background-color: #fbfbfd;
+        margin-bottom: 3vw;
+        padding-bottom: 0;
+        padding-top: 0;
+        background-color:rgb(255, 87, 87);
+    }
+    .ccText {
+        color: #fbfbfd;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 3vw;
+        text-align: left;
+        width: 30vw;
+        padding-top: 15vw;
+        padding-bottom: 10vw;
+        line-height: 4vw;
+    }
+    .storeIcon {
+        width: 15vw;
+        height: 5vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-bottom: 3vw;
+    }
+    .ccVer {
+        height: 30vw;
+        width: 60vw;
+        border-radius: 1vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 3vw;
+    }
+    .ccInsight {
+        line-height: 4vw;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .ccImg {
+        width: 30vw;
+        height: 42vw;
+    }
+    .colorHolder1 {
+        width: 20vw;
+        height: 42vw;
+        background-color: rgb(0, 32, 96);
+    }
+    .colorHolder2 {
+        width: 20vw;
+        height: 42vw;
+        background-color: rgb(153, 66, 160);
+    }
+    .colorHolder3 {
+        width: 20vw;
+        height: 42vw;
+        background-color: rgb(153, 66, 160);
+    }
+    .colorHolder4 {
+        width: 20vw;
+        height: 42vw;
+        background-color: rgb(156, 48, 61);
+    }
+    .ccContainer1 {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #fbfbfd;
+        margin-bottom: 3vw;
+        padding-bottom: 0;
+        padding-top: 0;
+        background-color: rgb(0, 77, 134);
+    }
+    .ccContainer2 {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        background-color: #fbfbfd;
+        margin-bottom: 3vw;
+        padding-bottom: 0;
+        padding-top: 0;
+        background-color:  rgb(0, 77, 134);
+    }
+    .ccContainer3 {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #fbfbfd;
+        margin-bottom: 3vw;
+        padding-bottom: 0;
+        padding-top: 0;
+        background-color:rgb(255, 87, 87);
+    }
+    .ccContainer4 {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        background-color: #fbfbfd;
+        margin-bottom: 3vw;
+        padding-bottom: 0;
+        padding-top: 0;
+        background-color:rgb(255, 87, 87);
+    }
+    .ccText {
+        color: #fbfbfd;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 3vw;
+        text-align: left;
+        width: 30vw;
+        padding-top: 15vw;
+        padding-bottom: 10vw;
+        line-height: 4vw;
+    }
+    .storeIcon {
+        width: 15vw;
+        height: 5vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-bottom: 3vw;
+    }
+    .ccInsight {
+        line-height: 1vw;
+    }
+}

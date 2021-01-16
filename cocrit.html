@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Co-Crit | [Name]</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="projectStyle.css">
+    <link rel="stylesheet" href="cocrit.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="header">
+        <a class="name" href="home.html">
+            <div class="titleText">My Name</div>
+        </a>
+        <ul class="navList">
+          <div class='rightLinks'>
+            <li class="links"><a class="nav" href="home.html">Portfolio</a></li>
+            <li class="links"><a class="nav" href="about.html">About</a></li>
+            <li class="links"><a class="nav" href="#resume">Resume</a></li>
+          </div>
+        </ul>
+      </div>   
+    </nav>
+    <div class="vContainer">
+        <img class="ccVer" src='./images/Co-Crit Ad.jpg'>
+    </div>
+    <div class="container">
+        <div class="projectTitle">Co-Crit</div>
+        <p><em>10,000 businesses have permanently shut down during the pandemic - Fortune</em></p>
+        <p>
+            To help fight COVID-19, I wanted to drive traffic to struggling businesses and 
+            help individuals make more informed decisions. So, I created Co-Crit,
+            a mobile app that crowdsources information regarding business' coronavirus safety measures.
+        </p>
+        <p style="align-self: center; text-align: center;"><b>Co-Crit is currently pending approval on the Google Play and Apple App Stores</b></p>
+        <div class="icons">
+            <img class="storeIcon" src='./images/google_play.png' alt="google_play">
+            <img class="storeIcon" src='./images/apple.png' alt="apple">
+        </div>
+    </div>  
+    <div class="ccContainer1">
+        <div class="colorHolder1"></div>
+        <img src='./images/cocrit1.png' class='ccImg' alt="co-crit home search">
+        <div class="ccText">Integrated with all businesses via the Google Places API</div>
+    </div>
+    <div class="ccContainer2">
+        <div class="ccText">Upload reviews to our database provided by Firebase</div>
+        <img src='./images/cocrit2.png' class='ccImg' alt="co-crit home write">
+        <div class="colorHolder2"></div>
+    </div>
+    <div class="ccContainer3">
+        <div class="colorHolder3"></div>
+        <img src='./images/cocrit3.png' class='ccImg' alt="co-crit home check">
+        <div class="ccText">View business' statistics before visiting</div>
+    </div>
+    <div class="ccContainer4">
+        <div class="ccText">See how safe others felt at a business</div>
+        <img src='./images/cocrit4.png' class='ccImg' alt="co-crit home read">
+        <div class="colorHolder4"></div>
+    </div>
+    <div class="container">
+        <div class="pSubtitle">Research</div>
+        <p>
+            Currently, most COVID-19 apps are sponsored by the government and are centered on contact tracing. There is no
+            way for individuals to know how safe a given business is before visiting. Numerous interviewees have expressed frustration
+            when visiting a business that is not enforcing standard safety proceedures such as social distancing.
+        </p>
+    </div>    
+    <div class="container">
+        <div class="pSubtitle">Design Considerations</div>
+        <ul class="insightList">
+            <li class="ccInsight">
+                Determining what factors should be released in a minimum viable product
+            </li>
+            <li class="ccInsight">
+                Implemented a scaling algorithm to account for different devices' width to height ratio
+            </li>
+            <li class="ccInsight">
+                Used familiar, simple icons and layout to increase usability and learnability
+            </li>
+            <li class="ccInsight">
+                Considered layout adjustment for phones with back buttons on the bezzle and notches for the camera
+            </li>
+            <li class="ccInsight">
+                Considered device accessibility features such as orientation and layout/font size options
+            </li>
+        </ul>
+    </div>    
+    <div class="container">
+      <div class="pSubtitle">Insights and Takeaways</div>
+      <ul class="insightList">
+        <li class="ccInsight">My first mobile app showed that making an app is hard work and has countless factors to consider!</li>
+        <li class="ccInsight">After switching from testing on an emulator to a real device, I found that the app's usability changes completely.</li>
+        <li class="ccInsight">I will be more intentional in planning how an interface will scale on differently sized devices from the start.</li>
+        <li class="ccInsight">I learned how to use React Native, Firebase, and various Google APIs.</li>
+      </ul>
+    </div>
+  </body>
+</html>
