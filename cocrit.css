@@ -252,4 +252,9 @@
     .ccInsight {
         line-height: 1vw;
     }
+    .news {
+        width: 15vw;
+        height: 15vw;
+        margin-bottom: 2vw;
+    }
 }

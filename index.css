@@ -52,7 +52,7 @@ title {
     font-size: 4vw;
     justify-content: space-around;
     align-items: flex-end;
-    padding-right: 4vw;
+    padding-right: 8vw;
     text-align: center;
     padding-top: 2vw;
 }
@@ -65,7 +65,7 @@ title {
 }
 .nav:hover {
     transform: skewX(3deg) translateX(5px);
-    color: #FF2C75;
+    color: #007cba;
 }
 .name:hover {
     text-decoration: none;
@@ -80,7 +80,8 @@ b {
     text-decoration: none;
 }
 .titleText {
-    font-size: 7vw;
+    padding-left: 2vw;
+    font-size: 9vw;
     font-weight: bold;
     flex-direction: row;
     justify-content: center;
@@ -197,40 +198,46 @@ p {
     background-image: url('./images/Co-Crit\ Ad.jpg');
     background-size: 100% 100%;
 }
-.dangy {
+.basketball {
     z-index: 100;
     height: 30vw;
     width: 60vw;
-    background-image: url('./images/Development\ Screenshot.png');
+    background-image: url('./images/basketball_main.jpeg');
     background-size: 100% 100%;
 }
-.kuleana {
+.ISEF {
     z-index: 100;
     height: 30vw;
     width: 60vw;
-    background-image: url('./images/kuleana_home.png');
+    background-image: url('./images/ISEF_Banner.jpg');
     background-size: 100% 100%;
 }
-.romes {
+.PC2P {
     z-index: 100;
     height: 30vw;
     width: 60vw;
-    background-image: url('./images/RedesignScreenshot.png');
+    background-image: url('./images/work_in_progress.png');
     background-size: 100% 100%;
 }
 .ccButton {
     display: none;
 }
-.dangyButton {
+.basketballButton {
     display: none;
 }
-.kuleanaButton {
+.ISEFButton {
     display: none;
 }
-.romesButton {
+.PC2PButton {
     display: none;
 }
 .vid {
+    display: none;
+}
+.cocritvid {
+    display: none;
+}
+.basketballvid {
     display: none;
 }
 
@@ -300,6 +307,14 @@ p {
         height: 50%;
         display: inherit;
         margin-top: 0vw;
+        filter: brightness(80%);
+    }
+    .cocritvid {
+        object-fit: contain;
+        width: 80%;
+        height: 50%;
+        display: inherit;
+        align-self: center;
     }
     .ty {
         color: black;
@@ -308,7 +323,7 @@ p {
         padding-top: 3vw;
         align-self: center;
     }
-
+}
 @media only screen and (min-width: 1025px) {
     * {
         line-height: 2vw;
@@ -330,10 +345,13 @@ p {
         width: 30vw;
     }
     .title {
-        font-size: 2vw;
+        font-size: 4vw;
         font-weight: bold;
-        padding-bottom: 1vw;
+        padding-bottom: 3vw;
         padding-top: 10vw;
+        color: black;
+        align-self: flex-start;
+        padding-left: 20vw;
     }
     .titleContainer {
         margin-bottom: 5vw;
@@ -342,9 +360,12 @@ p {
         padding-bottom: 5vw;
     }
     .subtitle {
-        font-size: 1.5vw;
+        font-size: 1.75vw;
         padding-bottom: 1vw;
-        padding-top: 3vw;
+        padding-top: 0;
+        color: black;
+        align-self: flex-start;
+        padding-left: 20vw;
     }
     .ty {
         color: black;
@@ -377,6 +398,13 @@ p {
         width: 60vw;
         border-radius: 1vw;
     }
+    .phone {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        color: #666;
+        align-self: center;
+        padding-top: 0;
+    }
     .contact {
         padding-left: 10vw;
         padding-right: 10vw;
@@ -384,6 +412,7 @@ p {
         padding-bottom: 5vw;
         align-self: center;
         padding-top: 0;
+        margin-top: 0;
     }
     .card {
         position: relative;
@@ -429,27 +458,27 @@ p {
         background-size: 100% 100%;
         filter: grayscale(100%);
     }
-    .dangy {
+    .basketball {
         z-index: 100;
         height: 24vw;
         width: 48vw;
-        background-image: url('./images/Development\ Screenshot.png');
+        background-image: url('./images/basketball_main.jpeg');
         background-size: 100% 100%;
         filter: grayscale(100%);
     }
-    .kuleana {
+    .ISEF {
         z-index: 100;
         height: 24vw;
         width: 48vw;
-        background-image: url('./images/kuleana_home.png');
+        background-image: url('./images/ISEF_Banner.jpg');
         background-size: 100% 100%;
         filter: grayscale(100%);
     }
-    .romes {
+    .PC2P {
         z-index: 100;
         height: 24vw;
         width: 48vw;
-        background-image: url('./images/RedesignScreenshot.png');
+        background-image: url('./images/work_in_progress.png');
         background-size: 100% 100%;
         filter: grayscale(100%);
     }
@@ -468,7 +497,7 @@ p {
         z-index: 1;
         display: inherit;
     }
-    .dangyButton {
+    .basketballButton {
         position: absolute;
         right: 14px;
         bottom: 14px;
@@ -483,13 +512,13 @@ p {
         z-index: 1;
         display: inherit;
     }
-    .kuleanaButton {
+    .ISEFButton {
         position: absolute;
         right: 14px;
         bottom: 14px;
         width: 30px;
         height: 30px;
-        background-color:#1FAB89;
+        background-color:#ee940d;
         border: none;
         border-radius: 30px;
         cursor: pointer;
@@ -498,13 +527,13 @@ p {
         z-index: 1;
         display: inherit;
     }
-    .romesButton {
+    .PC2PButton {
         position: absolute;
         right: 14px;
         bottom: 14px;
         width: 30px;
         height: 30px;
-        background-color:#5D722F;
+        background-color:#eec71b;
         border: none;
         border-radius: 30px;
         cursor: pointer;
@@ -525,28 +554,28 @@ p {
         transition-delay: 0.12s;
         filter: grayscale(0);
     }
-    .card:hover .dangy {
+    .card:hover .basketball {
         transition-delay: 0.12s;
         filter: grayscale(0);
     }
-    .card:hover .kuleana {
+    .card:hover .ISEF {
         transition-delay: 0.12s;
         filter: grayscale(0);
     }
-    .card:hover .romes {
+    .card:hover .PC2P {
         transition-delay: 0.12s;
         filter: grayscale(0);
     }
     .card:hover .ccButton {
         transform: scale(35);
     }
-    .card:hover .dangyButton {
+    .card:hover .basketballButton {
         transform: scale(35);
     }
-    .card:hover .kuleanaButton {
+    .card:hover .ISEFButton {
         transform: scale(35);
     }
-    .card:hover .romesButton {
+    .card:hover .PC2PButton {
         transform: scale(35);
     }
     .vid {
@@ -558,10 +587,45 @@ p {
         width: 100%;
         height: 93%;
         display: inherit;
-        margin-top: 5vw;
+        margin-top: 3vw;
+        filter: brightness(120%);
+    }
+    .cocritvid {
+        width: 60vw;
+        height: 40vw;
+        align-self: center;
+        margin-bottom: 3vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        border: 0;
+    }
+    .basketballvid {
+        width: 60vw;
+        height: 40vw;
+        border: none;
+        align-self: center;
+        margin-bottom: 3vw;
+        display: inherit;
+    }
+    .bballPicContainer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    .bball1pic {
+        width: 24vw;
+        height: 32vw;
+        padding-right: 1vw
+    }
+    .bball2pic {
+        width: 32vw;
+        height: 24vw;
+        padding-left: 1vw
     }
     .rightLinks {
         padding-top: 1vw;
     }
-}
 }

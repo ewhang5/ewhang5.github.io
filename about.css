@@ -1,6 +1,6 @@
 p {
     width: 70vw;
-    color: black;
+    color: #fcfbfd;
     align-self: center;
 }
 .aboutContainer {
@@ -15,11 +15,17 @@ p {
     font-size: 10vw;
     font-weight: 700;
     padding-bottom: 3vw;
-    padding-top: 15vw;
+    padding-top: 10vw;
     align-items: center;
     padding-left: 10vw;
     padding-right: 10vw;
     line-height: 15vw;
+}
+.lineUp {
+    flex-direction: horizontal;
+}
+.spacer {
+    padding-bottom: 10vw;
 }
 
 @media only screen and (min-width: 450px) {
@@ -28,28 +34,28 @@ p {
         color: black;
         align-self: flex-start;
         padding-left: 10vw;
-        font-size: 1.75vw;
+        font-size: 2vw;
         line-height: 3vw;
     }
     .aboutContainer {
         justify-content: center;
         align-items: flex-start;
-        background-color: #fbfbfd;
-        background-image: url(./images/about_background2.jpg);
+        background-color: black;
+        background-image: url(./images/MIT_thinking.jpg);
         background-repeat: no-repeat;
         height: 500px;
         background-position: center;
         background-size: cover;
         position: relative;
         margin-bottom: 3vw;
-        padding-bottom: 3vw;
+        padding-bottom: 2vw;
         padding-top: 10vw;
     }
     .aboutTitle {
         font-size: 4vw;
         font-weight: 700;
         padding-bottom: 2vw;
-        padding-top: 18vw;
+        padding-top: 6vw;
         align-items: flex-start;
         line-height: 4vw;
         color: black
@@ -57,12 +63,18 @@ p {
 }
 @media only screen and (min-width: 1025px) {
     p {
-        width: 50vw;
         color: black;
         align-self: flex-start;
-        padding-left: 10vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
         font-size: 1.2vw;
         line-height: 2vw;
+        flex-wrap: wrap;
+    }
+    b {
+        font-weight: 700;
+        flex-wrap: nowrap;
+        margin-right: 1vw;
     }
     .aboutContainer {
         justify-content: center;
@@ -74,16 +86,95 @@ p {
         background-size: cover;
         position: relative;
         margin-bottom: 3vw;
-        padding-bottom: 3vw;
+        padding-bottom: 2vw;
         padding-top: 3vw;
+    }
+    .container {
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #fbfbfd;
+        margin-bottom: 3vw;
+        padding-bottom: 3vw;
+        padding-top: 0;
+    }
+    .pSubtitle {
+        font-size: 2.5vw;
+        padding-bottom: 2vw;
+        padding-top: 3vw;
+        align-items: flex-start;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        background-color: #fbfbfd;
+        line-height: 4vw;
     }
     .aboutTitle {
         font-size: 3.5vw;
         font-weight: 700;
         padding-bottom: 2vw;
-        padding-top: 10vw;
+        padding-top: 3vw;
         align-items: flex-start;
         line-height: 6vw;
         color: black
+    }
+    .scores {
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        font-size: 1.2vw;
+        line-height: 2vw;
+        flex-wrap: wrap;
+        margin-bottom: 1vw;
+    }
+    .scoreItem {
+        flex-direction: row;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+    .iconContainer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    .iconBox {
+        justify-content: center;
+        align-items: center;
+        width: 20vw;
+        height: 10vw;
+        margin-bottom: 2vw;
+    }
+    .java {
+        height: 10vw;
+        width: 8vw;
+    }
+    .js{
+        height: 10vw;
+        width: 20vw;
+    }
+    .python {
+        height: 10vw;
+        width: 15vw;
+    }
+    .rn {
+        height: 10vw;
+        width: 10vw; 
+    }
+    .firebase {
+        height: 10vw;
+        width: 20vw;
+    }
+    .htmlCss {
+        height: 10vw;
+        width: 13vw;
+    }
+    .yolo {
+        height: 6vw;
+        width: 12vw;
+    }
+    .tf {
+        height: 10vw;
+        width: 27vw; 
     }
 }

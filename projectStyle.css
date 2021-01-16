@@ -28,6 +28,7 @@
     padding-right: 10vw;
     background-color: #fbfbfd;
     line-height: 15vw;
+    color: #007cba
 }
 .pSubtitle {
     font-size: 8vw;
@@ -38,6 +39,7 @@
     padding-right: 10vw;
     background-color: #fbfbfd;
     line-height: 12vw;
+    color: #007cba;
 }
 .container {
     justify-content: center;
