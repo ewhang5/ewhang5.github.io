@@ -89,6 +89,16 @@ p {
         padding-bottom: 2vw;
         padding-top: 3vw;
     }
+    .achIcons {
+        width: 8vw;
+        height: 8vw;
+        margin-left: 20vw;
+        justify-content: center;
+    }
+    .iconWords {
+        margin-left: 5vw;
+        margin-right: 20vw;
+    }
     .container {
         justify-content: center;
         align-items: flex-start;
@@ -176,5 +186,14 @@ p {
     .tf {
         height: 10vw;
         width: 27vw; 
+    }
+    .nhsVid {
+        width: 60vw;
+        height: 40vw;
+        align-self: center;
+        margin-bottom: 3vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        border: 0;
     }
 }
