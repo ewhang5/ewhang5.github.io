@@ -363,7 +363,7 @@ p {
         font-size: 4vw;
         font-weight: bold;
         padding-bottom: 3vw;
-        padding-top: 5vw;
+        padding-top: 3vw;
         color: black;
         align-self: flex-start;
         padding-left: 20vw;
@@ -512,7 +512,7 @@ p {
         height: 30px;
         background-color: rgb(255, 87, 87);
         border: none;
-        border-radius: 30px;
+        border-radius: 300px;
         cursor: pointer;
         outline:none;
         transition: all 0.3s ease;
@@ -527,7 +527,7 @@ p {
         height: 30px;
         background-color: #d2d1f5;
         border: none;
-        border-radius: 30px;
+        border-radius: 300px;
         cursor: pointer;
         outline:none;
         transition: all 0.3s ease;
@@ -542,7 +542,7 @@ p {
         height: 30px;
         background-color:#ee940d;
         border: none;
-        border-radius: 30px;
+        border-radius: 300px;
         cursor: pointer;
         outline:none;
         transition: all 0.3s ease;
@@ -557,7 +557,7 @@ p {
         height: 30px;
         background-color:#eec71b;
         border: none;
-        border-radius: 30px;
+        border-radius: 300px;
         cursor: pointer;
         outline:none;
         transition: all 0.3s ease;
