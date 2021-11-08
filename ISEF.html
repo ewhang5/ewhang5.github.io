@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="projectStyle.css">
     <link rel="stylesheet" href="ISEF.css">
+    <link rel="stylesheet" href="cocrit.css">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
@@ -34,25 +35,23 @@
           Booth Id: TMED039, Category: Translational Medical Science
         </p>
         <p>
-            Abstract: The long-term goal is to develop an automated, real time, in 
-            situ red blood cell (RBC) counting, identification, and RBC distribution 
-            width calculating system using deep learning. The aim of this work was to 
-            develop the deep learning model that can identify red blood cells. 200 images
-             containing RBCs were annotated using Microsoft’s Visual Object Tagging Tool. 
-             Using the You Only Look Once object detection public repository and Tensorflow 
-             1.14.0, a deep learning model was created to identify RBCs. The 200 images were 
-             used for training. The model was programmed to create a bounding box around the 
-             RBC to signify that it has been recognized. The model was tested on different 
-             images and it correctly identified an average of 6.51±3.14 RBCs per test image 
-             as compared to 7.44±3.58 that a human was able to identify (p=1.26x10-9). The 
-             model identified RBCs quite well, though not statistically as well as a human 
-             being. The computer also assigned a score for each bounding box with an average 
-             score of 60.62%±9.69%. This score represents the confidence the model had with 
-             each cell it identified. These scores were low because the quality of the images 
-             was poor. The score correlated well with the quality of the image. With more training, 
-             this model shows promise in identifying RBCs. After further training, this model will 
-             be used to identify RBCs in videos. Finally, it will be programmed to measure the RBC 
-             diameter and calculate RDW.
+          The long-term goal is to develop an automated, real time, in situ red blood cell (RBC)
+           identification, counting, and RBC size distribution width (RDW) calculating system using
+           deep learning (DL) for the prediction of mortality in people with various medical conditions.
+           The aim of this work was to develop a deep learning model that identifies and counts RBCs
+           and white blood cells (WBCs) and calculates RDW in images and videos. 869 images of single
+           cells, 230 images containing multiple cells, and 4 videos were annotated using Microsoft’s
+           VOTT and LabelImg and used to train the DL model. The Darkflow public repository was cloned,
+           run using a virtual environment, trained on 90% of the images using pre-trained YOLO weights,
+           and programmed to create a bounding box around each cell to signify RBC or WBC. This model
+           was used to test the remaining 10% of the images to determine its accuracy, calculate RDWs
+           for images and videos of healthy blood, and calculate RDW for sickle cell anemic blood. This
+           model identified 99% ± 5% of the RBCs and 74% ± 40% of the WBCs, and 95% ± 4% had bounding
+           boxes that accurately bounded the RBCs. In videos, this model virtually identified all of
+           the RBCs and WBCs correctly and tracked their movements. Finally, this model successfully
+           distinguished between the RDWs of healthy and sickle cell anemic blood (22.4% ± 10.4% vs.
+           37.4% ± 10.5%, respectively; p = 9.39 x 10-5). This model shows tremendous potential for
+           clinical use.
         </p>   
       </div> 
       <div>
@@ -77,9 +76,20 @@
         <img class="selfcenter" src='./images/Slide_10.png'>
         <img class="selfcenter" src='./images/Slide_11.png'>
         <img class="selfcenter" src='./images/Slide_12.png'>
-        <img class="selfcenter" src='./images/Slide_13.png'>
+        <iframe class="cocritvid" 
+          src="https://www.youtube.com/embed/1P-yJqM_P90">
+        </iframe>
+        <iframe class="cocritvid" 
+          src="https://www.youtube.com/embed/aB-Zfhp11fI">
+        </iframe>
         <img class="selfcenter" src='./images/Slide_14.png'>
         <img class="selfcenter" src='./images/Slide_15.png'>
+        <img class="selfcenter" src='./images/Slide_16.png'>
+        <img class="selfcenter" src='./images/Slide_17.png'>
+        <img class="selfcenter" src='./images/Slide_18.png'>
+        <img class="selfcenter" src='./images/Slide_19.png'>
+        <img class="selfcenter" src='./images/Slide_20.png'>
+        <img class="selfcenter" src='./images/Slide_21.png'>
     </div>
   </body>
 </html>

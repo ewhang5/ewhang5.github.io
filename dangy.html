@@ -1,0 +1,115 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Dangy | Elijah Whang</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="projectStyle.css">
+    <link rel="stylesheet" href="cocrit.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="header">
+        <a class="name" href="index.html">
+            <div class="titleText">Elijah Whang</div>
+        </a>
+        <ul class="navList">
+          <div class='rightLinks'>
+            <li class="links"><a class="nav" href="index.html">Portfolio</a></li>
+            <li class="links"><a class="nav" href="about.html">Accomplishments</a></li>
+            <li class="links"><a class="nav" href="https://www.dropbox.com/s/y58b3o8ppvte00z/Elijah%20Whang%20Resume.pdf?dl=0">Resume</a></li>
+          </div>
+        </ul>
+      </div>   
+    </nav>
+    <div class="vContainer">
+      <a href="https://www.dangyapp.com/">
+        <img class="ver" src='./images/dangy_screens.jpg'>
+      </a>
+    </div>
+    <div class="container">
+      <div>
+        <div class="projectTitle">Dangy</div>
+        <div class="container">
+          <div class="pSubtitle">Problem</div>
+          <p>
+            According to the NY Post, we waste 10,368 hours of our lives deciding what to eat. To solve this problem,
+             185M people spend hours searching through Google or Yelp, only to order a dish that often doesn’t fit their
+             tastes. This is because a high restaurant rating doesn’t mean you’ll order something you like as these
+             platforms don’t know your taste profile. To exacerbate this problem, many people are not introduced to new
+             restaurants or dishes by the restaurants themselves, because most restaurants “only promote to existing
+             customers”. This is because advertising is unaffordable for most restaurants, especially small, independent
+             restaurants. Yelp for Business and Google AdWords use a bidding process that can drive the cost-per-click to
+             $40! This is unaffordable, especially when 85% of businesses rated Yelp for Business one-star and Forbes says
+             that “AdWords just doesn’t fit.”
+          </p>
+      </div>
+        <div class="container">
+          <div class="pSubtitle">The Solution</div>
+          <p>
+            Introducing Dangy, a mobile app that custom-recommends restaurant dishes you’ll love! Dangy uses AI to
+              assess your taste profile, crowdsource restaurant dish reviews, find users with similar tastes as you,
+              and analyze ingredients in dishes to recommend the best ones for you! Unlike our competitors, Dangy
+              recommends dishes fit for your tastes so you can confidently order without spending hours searching. After,
+              Dangy curates a list of the top dishes you need to try, Dang-it! Rate dishes on taste, spiciness, and value,
+              and share fun, TikTok-like videos! For restaurants, Dangy offers affordable advertising at 5% of the dish
+              price. Dangy’s dish ads are also the most effective because we match them with users who would love those
+              dishes to increase click-through and conversion rates. Finally, we offer restaurants a subscription service
+              to answer their biggest question: “Why don’t customers like certain dishes?” We increase customer
+              satisfaction and retention.              
+          </p>
+      </div>  
+        <div class="container">
+          <div class="pSubtitle">Technical Aspect</div>
+          <p>
+            To build Dangy, I used React Native and JavaScript for the frontend and incorporated 12 AWS services for a scalable
+              backend, including S3, Lambda and DynamoDB for media storage, ad hoc serverless compute, and millisecond response-time database
+              querying. For the AI model, I employed vector quantization with K-Means Clustering and logistic regression
+              to draw relationships between users’ taste profiles; Word2Vec, which uses Natural Language Processing to
+              map word associations for dish descriptions; and, an Actor-Critic Reinforcement Learning model to improve
+              recommendation accuracy.
+          </p>
+      </div>  
+          <div class="container">
+            <div class="pSubtitle">Mentors</div>
+            <p>
+              Dangy has worked with the CEOs of Lake Forest Venture Management, Seated, and BetaXAnalytics while
+                participating in Brown University’s startup accelerator Breakthrough-Lab. Dangy’s use of AI to recommend
+                the best dishes for each user also led me to confer with AI experts like Greggory Elias, founder of
+                Skim AI, and Daniel Ritchie, a Brown University AI professor.
+            </p>
+        </div>
+          <div class="container">
+            <div class="pSubtitle">The Return</div>
+            <p>
+              Dangy is for everyone! But we’re starting with the 139M US millennials and Gen-Z’s. This group is 99% more
+                likely to rely on social media and online reviews and eat out two out of every three days, which translates
+                to 34B meals per year that we can influence. To quantify this, a 5% conversion rate on cost-per-click yields
+                over $1B per year in revenue, and a 5% conversion to our subscription service yields $50M yearly. And that’s
+                just in the US. The world has 15x the number of restaurants. We’ve already received interest from advertising
+                agencies and food influencers, who collectively have over 866k followers, and have released our Alpha
+                which correctly predicts a given user’s dish rating 91% of the time. Sign up and be the first to “fall
+                in love at first dish”!
+            </p>
+        </div>    
+        <p style="align-self: center; text-align: center;">
+          <b>Participant in Brown University's B-Lab Program,Semi-Finalist in Get Started Rhode Island Competition,
+             and feature in Rhode Island Business Journal</b>
+        </p>
+        <div class="icons">
+          <img class="dangyIcon" src="./images/b-lab.png">
+          <img class="dangyIcon" src="./images/get_started_ri.png">
+          <img class="dangyIcon" src="./images/ri_inno.png">
+        </div>
+        <p style="align-self: center; text-align: center;"><b>You can check out Dangy's Website and sign up for early access here:</b></p>
+        <div class="icons">
+          <a href='https://www.dangyapp.com/'>
+            <img class="websiteIcon" src='./images/logo_colored.png' alt="website">
+          </a>
+      </div>  
+    </div>
+    <div class="container">
+  </body>
+</html>

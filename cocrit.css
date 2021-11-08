@@ -64,6 +64,20 @@
     padding-left: 5vw;
     padding-bottom: 3vw;
 }
+.websiteIcon {
+    width: 30vw;
+    height: 10vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 3vw;
+}
+.dangyIcon {
+    width: 30vw;
+    height: 10vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 3vw;
+}
 .ccInsight {
     display: list-item;
     padding-bottom: 2vw;
@@ -148,6 +162,20 @@
         line-height: 4vw;
     }
     .storeIcon {
+        width: 15vw;
+        height: 5vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-bottom: 3vw;
+    }
+    .websiteIcon {
+        width: 15vw;
+        height: 5vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-bottom: 3vw;
+    }
+    .dangyIcon {
         width: 15vw;
         height: 5vw;
         padding-right: 5vw;
@@ -250,19 +278,71 @@
         padding-left: 5vw;
         padding-bottom: 3vw;
     }
+    .topIcons {
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        padding-top: 7vw;
+        padding-bottom: 9vw;
+    }
+    .spacingIcons {
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        padding-top: 9vw;
+        padding-bottom: 9vw;
+    }
+    .newsIcons {
+        flex: 1;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+    .websiteIcon {
+        width: 20vw;
+        height: 8vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-bottom: 3vw;
+    }
+    .dangyIcon {
+        width: 24vw;
+        height: 8vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-bottom: 3vw;
+    }
     .ccInsight {
         line-height: 1vw;
     }
-    .news4 {
+    .githubIcon {
         width: 15vw;
         height: 15vw;
-        margin-bottom: 2vw;
-        margin-right: 1vw;
     }
-    .kens5 {
+    .squareIcon {
+        position:absolute;
+        width: 15vw;
+        height: 15vw;
+        left: 20vw;
+    }
+    .longIcon {
+        position:absolute;
         width: 26vw;
         height: 9vw;
-        margin-bottom: 2vw;
-        margin-left: 1vw;
+        right: 20vw;
+    }
+    .ksat12{
+        position:absolute;
+        width: 18vw;
+        height: 10vw;
+        right: 20vw;
+    }
+    .expressNews{
+        position:absolute;
+        width: 27vw;
+        height: 6vw;
+        left: 20vw;
     }
 }
