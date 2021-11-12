@@ -32,8 +32,8 @@
 }
 .pSubtitle {
     font-size: 8vw;
-    padding-bottom: 3vw;
-    padding-top: 5vw;
+    /* padding-bottom: 3vw;
+    padding-top: 5vw; */
     align-items: flex-start;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -101,8 +101,8 @@
     }
     .pSubtitle {
         font-size: 4vw;
-        padding-bottom: 3vw;
-        padding-top: 3vw;
+        /* padding-bottom: 3vw;
+        padding-top: 3vw; */
         align-items: flex-start;
         padding-left: 20vw;
         padding-right: 20vw;
