@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>PC's2Prosper | Elijah Whang</title>
+    <title>ACE Lab | Elijah Whang</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="cocrit.css">
     <link rel="stylesheet" href="projectStyle.css">
@@ -32,9 +32,58 @@
         <p>
             Researched different types of machine learning models at the Autonomous Control Engineering Lab
              (ACE Lab) of the University of Texas at San Antonio. I learned about CNNs, RNNs, GANs, autoencoders,
-             LSTMs, and reinforcement learning models. We are now working on a project that places roadside units
-             on optimal positions on a map. Check out the github for the project here:
+             LSTMs, and reinforcement learning models. 
         </p>
+        <div class="container">
+          <div class="pSubtitle">MNIST</div>
+          <p>
+            This was my first deep learning model created at ACE Lab. It is a CNN that uses the MNIST handwriting datatset
+             to identify handwritten numbers. I selected a random image and resized it to (28, 28, 1). I used Conv2D, MaxPooling2D,
+             Flatten, Dense, and Dropout layers with an Adam optimizer and sparse_categorical_crossentropy loss function for my model.
+        </div> 
+        <div class="container">
+          <div class="pSubtitle">Cats vs. Dogs</div>
+          <p>
+            This was my second CNN that used the cats_vs_dogs tensorflow dataset to create a model that is able to distinguish
+             between cats and dogs. After importing the images as a shuffled dataset, I split the dataset to an 80 to 20 split
+             between training and testing while reshaping the images to (256, 256, 3). The same layers, optimizer, and loss function
+             from the MNIST CNN were used.
+          </p>
+        </div> 
+        <div class="container">
+          <div class="pSubtitle">Character Trajectory</div>
+          <p>
+            This was my LSTM that predicted the trajectory of a pen that was writing a character. After importing the data,
+             it was resized to (2858, 109, 3), reshaped with 90 degree rotations and flips, and shuffled. 67% of the data was used
+             for training and the rest for testing. The model was a sequential model that used LSTM and Dense layers, an Adam optimizer,
+             and categorical_crossentropy loss function.
+          </p>
+        </div> 
+        <div class="container">
+          <div class="pSubtitle">Dry Bean Dataset</div>
+          <p>
+            This was my autoencoder that found out the type of dry bean based on its characteristics like roundness or perimeter.
+             I used Pandas DataFrame to import the data and split the data into 80% train and 20% test. I used Dense layers with
+             a ReLU activation function for the encoder and sigmoid activation function for the decoder. The model used an Adam
+             optimizer and binary_crossentropy loss function.
+          </p>
+        </div>
+        <div class="container">
+          <div class="pSubtitle">Traveling Salesman</div>
+          <p>
+            Although I was not in charge of coding this project, I was also taught how to solve the famous traveling salesman problem
+             that aims to find the shortest path through every city while returning to the origin city. I was taught about simulated annealing
+             and genetic algorithms and worked through the code with my mentor.
+          </p>
+        </div>
+        <div class="container">
+          <div class="pSubtitle">Current Work</div>
+          <p>
+              We are now working on a project that places roadside units on optimal positions on a map. Check out the github for the project
+               here (I have no visibile contribution because all of my additions were sent to my mentor for his review before he used my code
+               as he saw right):
+          </p>
+        </div>
         <div class="icons">
           <a href='https://github.com/pyrosnowman24/Map_Dataset_Generator'>
             <img class="githubIcon" src="./images/github.png">
