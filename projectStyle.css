@@ -113,9 +113,9 @@
         justify-content: center;
         align-items: flex-start;
         background-color: #fbfbfd;
-        margin-bottom: 3vw;
-        padding-bottom: 3vw;
-        padding-top: 3vw;
+        margin-bottom: 1vw;
+        padding-bottom: 1vw;
+        padding-top: 1vw;
     }
     .containerW {
         justify-content: center;

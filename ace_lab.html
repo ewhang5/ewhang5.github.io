@@ -25,62 +25,22 @@
       </div>   
     </nav>
     <div class="vContainer">
-      <img class="ver" src='./images/acelab.webp'>
+      <img class="ccVer" src='./images/acelab.webp'>
     </div>
     <div class="container">
         <div class="projectTitle">ACE Lab</div>
         <p>
-            Researched different types of machine learning models at the Autonomous Control Engineering Lab
-             (ACE Lab) of the University of Texas at San Antonio. I learned about CNNs, RNNs, GANs, autoencoders,
-             LSTMs, and reinforcement learning models. 
+            I researched different types of machine learning models at the Autonomous Control Engineering Lab
+             (ACE Lab) at the University of Texas at San Antonio. I worked with machine learning models such as
+             convolutional neural networks (CNNs), recurrent neural networks (RNNs), generative adversarial networks
+             (GANs), autoencoders, long short-term memory models (LSTMs), and reinforcement learning models in the following projects:
         </p>
         <div class="container">
-          <div class="pSubtitle">MNIST</div>
+          <div class="pSubtitle">Solving the Roadside Unit Deployment Problem</div>
           <p>
-            This was my first deep learning model created at ACE Lab. It is a CNN that uses the MNIST handwriting datatset
-             to identify handwritten numbers. I selected a random image and resized it to (28, 28, 1). I used Conv2D, MaxPooling2D,
-             Flatten, Dense, and Dropout layers with an Adam optimizer and sparse_categorical_crossentropy loss function for my model.
-        </div> 
-        <div class="container">
-          <div class="pSubtitle">Cats vs. Dogs</div>
-          <p>
-            This was my second CNN that used the cats_vs_dogs tensorflow dataset to create a model that is able to distinguish
-             between cats and dogs. After importing the images as a shuffled dataset, I split the dataset to an 80 to 20 split
-             between training and testing while reshaping the images to (256, 256, 3). The same layers, optimizer, and loss function
-             from the MNIST CNN were used.
-          </p>
-        </div> 
-        <div class="container">
-          <div class="pSubtitle">Character Trajectory</div>
-          <p>
-            This was my LSTM that predicted the trajectory of a pen that was writing a character. After importing the data,
-             it was resized to (2858, 109, 3), reshaped with 90 degree rotations and flips, and shuffled. 67% of the data was used
-             for training and the rest for testing. The model was a sequential model that used LSTM and Dense layers, an Adam optimizer,
-             and categorical_crossentropy loss function.
-          </p>
-        </div> 
-        <div class="container">
-          <div class="pSubtitle">Dry Bean Dataset</div>
-          <p>
-            This was my autoencoder that found out the type of dry bean based on its characteristics like roundness or perimeter.
-             I used Pandas DataFrame to import the data and split the data into 80% train and 20% test. I used Dense layers with
-             a ReLU activation function for the encoder and sigmoid activation function for the decoder. The model used an Adam
-             optimizer and binary_crossentropy loss function.
-          </p>
-        </div>
-        <div class="container">
-          <div class="pSubtitle">Traveling Salesman</div>
-          <p>
-            Although I was not in charge of coding this project, I was also taught how to solve the famous traveling salesman problem
-             that aims to find the shortest path through every city while returning to the origin city. I was taught about simulated annealing
-             and genetic algorithms and worked through the code with my mentor.
-          </p>
-        </div>
-        <div class="container">
-          <div class="pSubtitle">Current Work</div>
-          <p>
-              We are now working on a project that places roadside units on optimal positions on a map. Check out the github for the project
-               here (I have no visibile contribution because all of my additions were sent to my mentor for his review before he used my code
+              I am currently working on a project that places roadside units on optimal positions on a map to enhance communication between cars
+               and increase vehicle safety by avoiding signal interferences from the environment and buildings. Check out the GitHub for the project
+               here (I have no visible contributions because all of my additions were sent to my mentor for his review before he used my code
                as he saw right):
           </p>
         </div>
@@ -88,6 +48,54 @@
           <a href='https://github.com/pyrosnowman24/Map_Dataset_Generator'>
             <img class="githubIcon" src="./images/github.png">
           </a>
+        </div>
+        <div class="container">
+          <div class="pSubtitle">Handwritten Digit Identifier</div>
+          <p>
+            This was my first deep learning model created at ACE Lab. I created a CNN that uses the MNIST handwriting datatset
+             to identify handwritten numbers using Python and Keras. I used Conv2D, MaxPooling2D,
+             Flatten, Dense, and Dropout layers with an Adam optimizer and sparse_categorical_crossentropy loss function for my model.
+             My model achieved an accuracy of 98.38%. You can check out my code <a href='https://colab.research.google.com/drive/1ECVd1C_dSJtCwYpmPKWKdwvlky7ZkQrr' class="hyperlink">here</a>.
+          </p>
+        </div> 
+        <div class="container">
+          <div class="pSubtitle">Cats vs. Dogs Image Identifier</div>
+          <p>
+            I created a CNN that used the cats_vs_dogs TensorFlow dataset to distinguish
+             between images of cats and dogs. After importing the images, I shuffled and split the dataset to an 80:20 split
+             between training and testing. I used the same layers, optimizer, and loss function from the MNIST CNN.
+             You can check out my code <a href='https://colab.research.google.com/drive/17iDoI35DX85LL9o6WwV1PDS_88EF16_G' class="hyperlink">here</a>.
+          </p>
+        </div> 
+        <div class="container">
+          <div class="pSubtitle">Predicting Character using Pen Trajectory</div>
+          <p>
+            I created an LSTM that predicted the character being written using the trajectory of a pen. After importing the data,
+             it was resized, reshaped, and shuffled. 67% of the data was used
+             for training and the rest for testing. I created a Sequential model that used LSTM and Dense layers, an Adam optimizer,
+             and categorical_crossentropy loss function.
+             You can check out my code <a href='https://colab.research.google.com/drive/1E7fOBKJ6SjEyQvA0igyMDZamd2jGolLa' class="hyperlink">here</a>.
+          </p>
+        </div> 
+        <div class="container">
+          <div class="pSubtitle">Classifying Dry Bean</div>
+          <p>
+            I created an autoencoder that classified the type of dry bean based on its characteristics like roundness or perimeter.
+             I used Pandas DataFrame to import the data and split it into 80:20 training and testing datasets. I used Dense layers with
+             a ReLU activation function for the encoder and a sigmoid activation function for the decoder. My model used an Adam
+             optimizer and binary_crossentropy loss function.
+             You can check out my code <a href='https://colab.research.google.com/drive/1LBtJYOstq-J4msy0GecwRbem3N-1E-3J' class="hyperlink">here</a>.
+          </p>
+        </div>
+        <div class="container">
+          <div class="pSubtitle">Traveling Salesman Problem</div>
+          <p>
+            Although I was not in charge of coding this project, I was also taught how to solve the famous Traveling Salesman Problem
+             that aims to find the shortest path through specified city while returning to the origin city. I was taught about simulated annealing
+             and genetic algorithms and worked through the code with my mentor.
+             You can check out our code for <a href='https://colab.research.google.com/drive/1pOlqBgS18HQT7hDiLS8aSfcGlCx3sFrL' class="hyperlink">simulated annealing</a> and
+             <a href='https://colab.research.google.com/drive/11fcoNNUdFFDB4CQlikJvi2vueBKcjFQu' class="hyperlink">genetic algorithms</a>.
+          </p>
         </div>
   </body>
 </html>

@@ -18,6 +18,10 @@ a {
     justify-content: center;
     align-items: flex-start;
 }
+.hyperlink {
+    color: rgb(38, 122, 248);
+    display: inline-block;
+}
 .header {
     justify-content: center;
     flex-direction: row;
@@ -147,6 +151,7 @@ p {
     padding-left: 10vw;
     padding-right: 10vw;
     color: #666;
+    display: inline;
 }
 .itemTitle {
     font-size: 8vw;
